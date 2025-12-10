@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  overflow: hidden;
+  background: black;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+
+/*# sourceMappingURL=main.css.map*/
