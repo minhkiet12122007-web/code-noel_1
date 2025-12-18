@@ -1,1 +1,0 @@
-{"version":3,"file":"main.css","mappings":"AAAA;EACE,SAAS;EACT,gBAAgB;EAChB,iBAAiB;AACnB;;AAEA;EACE,eAAe;EACf,MAAM;EACN,OAAO;AACT","sources":["webpack:///./src/style.css"],"sourcesContent":["body {\r\n  margin: 0;\r\n  overflow: hidden;\r\n  background: black;\r\n}\r\n\r\n.webgl {\r\n  position: fixed;\r\n  top: 0;\r\n  left: 0;\r\n}\r\n"],"names":[],"sourceRoot":""}
