@@ -1,0 +1,25 @@
+/* style.css */
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; padding: 0; background: #000; font-family: sans-serif; }
+canvas.webgl { display: block; width: 100vw; height: 100vh; }
+
+/* UI */
+#ui {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  z-index: 20;
+}
+#ui button {
+  background: rgba(8,10,20,0.75);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.06);
+  padding: 10px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  backdrop-filter: blur(4px);
+}
+#ui button:hover { transform: translateY(-1px); }

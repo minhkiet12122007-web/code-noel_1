@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Merry Christmas 🎄</title>
+
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <canvas class="webgl"></canvas>
+
+    <!-- THREE.JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r152/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r152/examples/js/loaders/GLTFLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r152/examples/js/loaders/OBJLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mrdoob/three.js@r152/examples/js/loaders/MTLLoader.js"></script>
+
+    <!-- UI -->
+    <audio id="bgm" src="jingle.mp3" loop></audio>
+    <img id="snowflake" src="./assets/models/snowman/snowflake.png" hidden>
+
+    <div id="ui">
+        <button id="musicToggle">🔊 Music: ON</button>
+        <button id="lightsToggle">💡 Lights: ON</button>
+        <button id="snowToggle">❄️ Snow: ON</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
